@@ -1,0 +1,4 @@
+hostname,ip,device_type
+Router-1,192.168.1.1,cisco_ios
+Switch-1,192.168.2.1,cisco_ios
+Firewall-1,10.0.0.1,palo_alto
