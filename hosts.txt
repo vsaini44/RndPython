@@ -1,0 +1,3 @@
+google.com
+database.com
+openai.com
