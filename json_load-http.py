@@ -22,3 +22,9 @@ server=HTTPServer(("localhost",8081),abchandler)
 print("server started on localhost:8081")
 
 server.serve_forever()
+
+
+
+#######################
+#### to call
+# curl -X POST http://localhost:8081 -H "Content-Type: application/json" -d '{"servername":"vishal"}'
