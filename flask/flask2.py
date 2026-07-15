@@ -77,3 +77,8 @@ def delete_server(server_id):
 
 if __name__=="__main__":
     app.run(debug=True)
+# curl http://localhost:5000/servers
+# curl http://localhost:5000/servers/1
+# curl http://localhost:5000/servers/500
+# curl http://localhost:5000/servers?os=Linux
+# curl http
