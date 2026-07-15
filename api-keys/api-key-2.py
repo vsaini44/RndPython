@@ -78,3 +78,11 @@ def python_hash():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# curl http://127.0.0.1:5000/
+# curl http://127.0.0.1:5000/users
+# curl -H "Authorization: Bearer hello" http://127.0.0.1:5000/users
+# curl -H "Authorization: Bearer my-secret-key" http://127.0.0.1:5000/users
+# curl http://127.0.0.1:5000/show-hash
+# curl http://127.0.0.1:5000/python-hash
+# 
