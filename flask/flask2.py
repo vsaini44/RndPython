@@ -80,5 +80,11 @@ if __name__=="__main__":
 # curl http://localhost:5000/servers
 # curl http://localhost:5000/servers/1
 # curl http://localhost:5000/servers/500
-# curl http://localhost:5000/servers?os=Linux
-# curl http
+# curl "http://localhost:5000/servers?os=Linux"
+# curl -X POST http://localhost:5000/servers -H "Content-Type: application/json" -d '{"servername":"DB01","os":"Linux"}'
+# curl -X POST http://localhost:5000/servers -H "Content-Type: application/json" -d '{}'
+# curl -X PUT http://localhost:5000/servers/2 -H "Content-Type: application/json" -d '{"os":"Ubuntu"}'
+# curl http://localhost:5000/servers/2
+# curl -X DELETE http://localhost:5000/servers/2
+# curl -X DELETE http://localhost:5000/servers/1
+# curl http://localhost:5000/servers
