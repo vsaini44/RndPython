@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>Welcome {{ user }}</h1>
+
+<h2>API Keys</h2>
+
+<ul>
+
+{% for key in api_keys %}
+<li>{{ key }}</li>
+{% endfor %}
+
+</ul>
+
+<a href="{{ url_for('logout') }}">
+Logout
+</a>
+
+</body>
+
+</html>
