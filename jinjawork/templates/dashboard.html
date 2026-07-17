@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+<h1>Welcome {{ user }}</h1>
+
+<h2>Your API Keys</h2>
+
+<ul>
+
+{% for key in api_keys %}
+<li>{{ key }}</li>
+{% endfor %}
+
+</ul>
+
+{% if api_keys|length == 0 %}
+<p>No API Keys Found</p>
+{% endif %}
+
+</body>
+
+</html>
